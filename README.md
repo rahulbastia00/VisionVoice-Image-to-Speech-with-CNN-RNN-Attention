@@ -10,28 +10,27 @@ The primary motivation is to explore the synergy between computer vision and nat
 
 ## 2. Solution Workflow
 
-The overall pipeline for this project is illustrated below:
-
-<p align="center">
-  <a href="doc/architecture_diagram.png">
-    <img src="doc/architecture_diagram.png" alt="Architecture Diagram" width="300"/>
-  </a>
-</p>
-
-
+<table>
+  <tr>
+    <td style="width:60%; vertical-align:top;">
 
 **Explanation of the Workflow:**
 
-1. **Flickr8k Dataset** → The dataset provides both images and corresponding captions.
-2. **Data Preprocessing** → Captions are tokenized and cleaned, images are resized and normalized.
-3. **CNN Feature Extraction** → A pre-trained InceptionV3 model extracts image features.
-4. **Attention-based RNN Model** → The extracted features are passed to a GRU-based RNN with attention to generate captions word-by-word.
-5. **Training & Evaluation** → The model is trained and evaluated using BLEU scores.
-6. **Generated Caption** → Final descriptive captions are produced for unseen images.
+1. **Flickr8k Dataset** → The dataset provides both images and corresponding captions.  
+2. **Data Preprocessing** → Captions are tokenized and cleaned, images are resized and normalized.  
+3. **CNN Feature Extraction** → A pre-trained InceptionV3 model extracts image features.  
+4. **Attention-based RNN Model** → The extracted features are passed to a GRU-based RNN with attention to generate captions word-by-word.  
+5. **Training & Evaluation** → The model is trained and evaluated using BLEU scores.  
+6. **Generated Caption** → Final descriptive captions are produced for unseen images.  
 
 This flow ensures that the image context is effectively captured and translated into natural language.
 
----
+   </td>
+   <td style="width:20%; text-align:center;">
+      <img src="doc/architecture_diagram.png" alt="Architecture Diagram" width="150"/>
+   </td>
+  </tr>
+</table>
 
 ## 3. Highlights & Features
 
