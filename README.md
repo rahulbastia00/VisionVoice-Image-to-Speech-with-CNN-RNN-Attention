@@ -12,7 +12,8 @@ The primary motivation is to explore the synergy between computer vision and nat
 
 The overall pipeline for this project is illustrated below:
 
-![Architecture Diagram](doc/architecture_diagram.png)
+<img src="docs/architecture_diagram.png" alt="Architecture Diagram" width="400">
+
 
 
 **Explanation of the Workflow:**
