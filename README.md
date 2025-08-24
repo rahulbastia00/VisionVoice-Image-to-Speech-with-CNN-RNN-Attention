@@ -12,7 +12,11 @@ The primary motivation is to explore the synergy between computer vision and nat
 
 The overall pipeline for this project is illustrated below:
 
-<img src="docs/architecture_diagram.png" alt="Architecture Diagram" width="400">
+<p align="center">
+  <a href="doc/architecture_diagram.png">
+    <img src="doc/architecture_diagram.png" alt="Architecture Diagram" width="300"/>
+  </a>
+</p>
 
 
 
